@@ -61,6 +61,7 @@ text-align: center;
     background-color: white;
     padding-top: 20px;
     padding-bottom: 10px;
+
     
     
     
@@ -110,5 +111,5 @@ text-align: center;
     color: white;
     font-family: var(--fonte-texto);
     text-align: center;
-
+    box-shadow: 2px 2px 15px 10px rgba(0, 0, 0, 0.719);
 }
