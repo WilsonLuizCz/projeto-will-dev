@@ -9,10 +9,12 @@
     --fonte-padrao: arial,verdana,helvetica,sans-serif;
     --fonte-texto:'Lato',sans-serif;
     --fonte-titulo: 'Bebas Neue', cursive;
+
    }
 
 .containerr{
     background-color:var(--cor0);
+    
    
 }
 h1{
@@ -48,25 +50,35 @@ text-align: center;
 .Home{
 
     background-color: var(--cor0);
-    padding-top: 182px;
-    padding-bottom: 162px;
+    padding-top: 140px;
+    padding-bottom: 140px;
 
 }
 #Artigo1{
     
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.380);
 }
+#Imagem1{
+    width: 400px;
+    height: 380px;
+    border: black 4px solid;
+}
+
+@media(max-width:800px)
+{
+#Imagem1{
+    width: 450px;
+    height: 480px;
+}
+}
 
 .Serviços{
     background-color: white;
-    padding-top: 20px;
-    padding-bottom: 10px;
-
-    
-    
-    
- 
-    
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.Projetos{
+    padding-top: 80px;
 }
 #texto2{
 
@@ -89,23 +101,27 @@ text-align: center;
 }
 
 #Contatos{
-    
     background-color:var(--cor0);
-    padding-bottom: 60px;
-    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     margin: 0px;
 }
 
 #Social{
     
     background-color: rgba(0, 0, 0, 0.925);
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    padding: 20px;
     margin-bottom: 50px;
+}
+.Cadastro{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 
 #footer{
+    margin: 0px;
     padding: 7px;
     background-color: black;
     color: white;
